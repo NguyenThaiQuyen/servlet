@@ -1,0 +1,20 @@
+.icon-custom {
+    font-size: 20px !important;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.width-custom {
+    width: 400px;
+}
+
+.custome-radio {
+    margin-right: 40px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.error {
+    background-color: cornflowerblue;
+    color: red
+}

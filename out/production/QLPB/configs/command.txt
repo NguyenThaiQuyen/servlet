@@ -1,0 +1,6 @@
+error {
+    success = 0,
+    notEmpty = 1,
+    invalid = 2,
+    fail = 3
+}
