@@ -7,83 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2323fc11-a6ea-4ba2-a444-dca39c15aa83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/packages/department/CreateDepartmentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/packages/department/UpdateDepartmentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/packages/position/UpdatePositionServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/packages/staff/DeleteStaffServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/packages/staff/SearchServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/packages/staff/UpdateStaffServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/templates/public/js/custom-js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/department/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/position/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/staff/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/packages/admin/LogoutServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/configs/command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/configs/command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/dashboard/DashBoardBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/dashboard/DashBoardBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/dashboard/DashBoardServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/dashboard/DashBoardServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/department/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/department/Department.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/department/DepartmentBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/department/DepartmentBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/department/DepartmentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/department/DepartmentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/position/CreatePositionServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/position/CreatePositionServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/position/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/position/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/position/PositionBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/position/PositionBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/position/PositionDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/position/PositionDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/staff/CreateStaffServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/staff/CreateStaffServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/staff/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/staff/Staff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/staff/StaffBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/staff/StaffBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/staff/StaffDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/staff/StaffDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/staff/ViewStaffServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/WEB-INF/classes/packages/staff/ViewStaffServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/templates/pages/loadCSS.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/templates/pages/loadCSS.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/templates/pages/loadJS.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/templates/pages/loadJS.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/templates/public/css/custom-css.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/templates/public/css/custom-css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/views/dashboard.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/views/department/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/views/department/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/views/department/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/views/department/view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/views/position/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/views/position/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/views/position/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/views/position/view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/views/staff/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/views/staff/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/views/staff/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/QLPB_war_exploded/views/staff/view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/configs/command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/configs/command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/packages/dashboard/DashBoardBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/packages/dashboard/DashBoardBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/packages/dashboard/DashBoardServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/packages/dashboard/DashBoardServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/packages/department/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/packages/department/Department.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/packages/department/DepartmentBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/packages/department/DepartmentBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/packages/department/DepartmentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/packages/department/DepartmentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/packages/position/CreatePositionServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/packages/position/CreatePositionServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/packages/position/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/packages/position/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/packages/position/PositionBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/packages/position/PositionBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/packages/position/PositionDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/packages/position/PositionDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/packages/staff/CreateStaffServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/packages/staff/CreateStaffServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/packages/staff/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/packages/staff/Staff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/packages/staff/StaffBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/packages/staff/StaffBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/packages/staff/StaffDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/packages/staff/StaffDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QLPB/packages/staff/ViewStaffServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QLPB/packages/staff/ViewStaffServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/configs/command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/configs/command.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages/dashboard/DashBoardBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/dashboard/DashBoardBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages/dashboard/DashBoardServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/dashboard/DashBoardServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages/department/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/department/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages/department/DepartmentBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/department/DepartmentBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages/department/DepartmentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/department/DepartmentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages/position/CreatePositionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/position/CreatePositionServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages/position/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/position/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages/position/PositionBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/position/PositionBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages/position/PositionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/position/PositionDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages/staff/CreateStaffServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/staff/CreateStaffServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages/staff/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/staff/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages/staff/StaffBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/staff/StaffBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages/staff/StaffDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/staff/StaffDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages/staff/ViewStaffServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/staff/ViewStaffServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/packages/admin/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/admin/AdminServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/templates/pages/loadCSS.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/pages/loadCSS.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/pages/loadJS.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/pages/loadJS.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/public/css/custom-css.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/public/css/custom-css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/dashboard/dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/department/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/department/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/department/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/department/view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/position/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/position/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/position/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/position/view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/staff/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/staff/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/views/staff/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/staff/view.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +172,7 @@
       <updated>1576169340943</updated>
       <workItem from="1576169344938" duration="4466000" />
       <workItem from="1576202313934" duration="37573000" />
-      <workItem from="1576247657922" duration="2209000" />
+      <workItem from="1576247657922" duration="3486000" />
     </task>
     <servers />
   </component>
@@ -280,54 +208,54 @@
       <screen x="47" y="27" width="1319" height="741" />
     </state>
     <state x="193" y="141" width="1006" height="513" key="FileChooserDialogImpl/47.27.1319.741@47.27.1319.741" timestamp="1576246744613" />
-    <state width="870" height="269" key="GridCell.Tab.0.bottom" timestamp="1576249935291">
+    <state width="870" height="100" key="GridCell.Tab.0.bottom" timestamp="1576251205720">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
-    <state width="870" height="269" key="GridCell.Tab.0.bottom/47.27.1319.741@47.27.1319.741" timestamp="1576249935291" />
-    <state width="870" height="269" key="GridCell.Tab.0.center" timestamp="1576249935291">
+    <state width="870" height="100" key="GridCell.Tab.0.bottom/47.27.1319.741@47.27.1319.741" timestamp="1576251205720" />
+    <state width="870" height="100" key="GridCell.Tab.0.center" timestamp="1576251205720">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
-    <state width="870" height="269" key="GridCell.Tab.0.center/47.27.1319.741@47.27.1319.741" timestamp="1576249935291" />
-    <state width="870" height="269" key="GridCell.Tab.0.left" timestamp="1576249935290">
+    <state width="870" height="100" key="GridCell.Tab.0.center/47.27.1319.741@47.27.1319.741" timestamp="1576251205720" />
+    <state width="870" height="100" key="GridCell.Tab.0.left" timestamp="1576251205720">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
-    <state width="870" height="269" key="GridCell.Tab.0.left/47.27.1319.741@47.27.1319.741" timestamp="1576249935290" />
-    <state width="870" height="269" key="GridCell.Tab.0.right" timestamp="1576249935291">
+    <state width="870" height="100" key="GridCell.Tab.0.left/47.27.1319.741@47.27.1319.741" timestamp="1576251205720" />
+    <state width="870" height="100" key="GridCell.Tab.0.right" timestamp="1576251205720">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
-    <state width="870" height="269" key="GridCell.Tab.0.right/47.27.1319.741@47.27.1319.741" timestamp="1576249935291" />
-    <state width="870" height="269" key="GridCell.Tab.1.bottom" timestamp="1576249935194">
+    <state width="870" height="100" key="GridCell.Tab.0.right/47.27.1319.741@47.27.1319.741" timestamp="1576251205720" />
+    <state width="870" height="100" key="GridCell.Tab.1.bottom" timestamp="1576251205651">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
-    <state width="870" height="269" key="GridCell.Tab.1.bottom/47.27.1319.741@47.27.1319.741" timestamp="1576249935194" />
-    <state width="870" height="269" key="GridCell.Tab.1.center" timestamp="1576249935194">
+    <state width="870" height="100" key="GridCell.Tab.1.bottom/47.27.1319.741@47.27.1319.741" timestamp="1576251205651" />
+    <state width="870" height="100" key="GridCell.Tab.1.center" timestamp="1576251205651">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
-    <state width="870" height="269" key="GridCell.Tab.1.center/47.27.1319.741@47.27.1319.741" timestamp="1576249935194" />
-    <state width="870" height="269" key="GridCell.Tab.1.left" timestamp="1576249935194">
+    <state width="870" height="100" key="GridCell.Tab.1.center/47.27.1319.741@47.27.1319.741" timestamp="1576251205651" />
+    <state width="870" height="100" key="GridCell.Tab.1.left" timestamp="1576251205651">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
-    <state width="870" height="269" key="GridCell.Tab.1.left/47.27.1319.741@47.27.1319.741" timestamp="1576249935194" />
-    <state width="870" height="269" key="GridCell.Tab.1.right" timestamp="1576249935194">
+    <state width="870" height="100" key="GridCell.Tab.1.left/47.27.1319.741@47.27.1319.741" timestamp="1576251205651" />
+    <state width="870" height="100" key="GridCell.Tab.1.right" timestamp="1576251205651">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
-    <state width="870" height="269" key="GridCell.Tab.1.right/47.27.1319.741@47.27.1319.741" timestamp="1576249935194" />
-    <state width="870" height="269" key="GridCell.Tab.2.bottom" timestamp="1576249935195">
+    <state width="870" height="100" key="GridCell.Tab.1.right/47.27.1319.741@47.27.1319.741" timestamp="1576251205651" />
+    <state width="870" height="100" key="GridCell.Tab.2.bottom" timestamp="1576251205652">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
-    <state width="870" height="269" key="GridCell.Tab.2.bottom/47.27.1319.741@47.27.1319.741" timestamp="1576249935195" />
-    <state width="870" height="269" key="GridCell.Tab.2.center" timestamp="1576249935195">
+    <state width="870" height="100" key="GridCell.Tab.2.bottom/47.27.1319.741@47.27.1319.741" timestamp="1576251205652" />
+    <state width="870" height="100" key="GridCell.Tab.2.center" timestamp="1576251205652">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
-    <state width="870" height="269" key="GridCell.Tab.2.center/47.27.1319.741@47.27.1319.741" timestamp="1576249935195" />
-    <state width="870" height="269" key="GridCell.Tab.2.left" timestamp="1576249935194">
+    <state width="870" height="100" key="GridCell.Tab.2.center/47.27.1319.741@47.27.1319.741" timestamp="1576251205652" />
+    <state width="870" height="100" key="GridCell.Tab.2.left" timestamp="1576251205651">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
-    <state width="870" height="269" key="GridCell.Tab.2.left/47.27.1319.741@47.27.1319.741" timestamp="1576249935194" />
-    <state width="870" height="269" key="GridCell.Tab.2.right" timestamp="1576249935195">
+    <state width="870" height="100" key="GridCell.Tab.2.left/47.27.1319.741@47.27.1319.741" timestamp="1576251205651" />
+    <state width="870" height="100" key="GridCell.Tab.2.right" timestamp="1576251205652">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
-    <state width="870" height="269" key="GridCell.Tab.2.right/47.27.1319.741@47.27.1319.741" timestamp="1576249935195" />
+    <state width="870" height="100" key="GridCell.Tab.2.right/47.27.1319.741@47.27.1319.741" timestamp="1576251205652" />
     <state width="870" height="359" key="GridCell.Tab.3.bottom" timestamp="1576236844661">
       <screen x="47" y="27" width="1319" height="741" />
     </state>
