@@ -7,9 +7,22 @@ public class Position {
     private String id;
     private String name;
     private String description;
+    private int amount;
+
+    public Position(String _id, String _name, String _description, int _amount) {
+        this.id = _id;
+        this.name = _name;
+        this.description = _description;
+        this.amount = _amount;
+    }
 
     public Position(String _id, String _name, String _description) {
         this.id = _id;
+        this.name = _name;
+        this.description = _description;
+    }
+
+    public Position(String _name, String _description) {
         this.name = _name;
         this.description = _description;
     }
@@ -32,5 +45,23 @@ public class Position {
 
     public String getDescription() {
         return description;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
+    @Override
+    public String toString() {
+        return "Position{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", amount=" + amount +
+                '}';
     }
 }

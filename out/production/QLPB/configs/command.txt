@@ -4,3 +4,9 @@ error {
     invalid = 2,
     fail = 3
 }
+
+query {
+    department = 1,
+    position = 2,
+    all = 0
+}

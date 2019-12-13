@@ -19,5 +19,7 @@
 <!-- Custom Theme Scripts -->
 <script type="text/javascript" src="<%= request.getContextPath() %>/templates/public/js/custom.min.js"></script>
 
+<script type="text/javascript" src="<%= request.getContextPath() %>/templates/public/js/custom-js.js"></script>
+
 </body>
 </html>

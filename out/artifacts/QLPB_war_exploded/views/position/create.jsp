@@ -4,49 +4,70 @@
 <div class="right_col" role="main">
     <div class="page-title">
         <div class="title_left">
-            <h3>Create new staff</h3>
+            <h3>Create new position</h3>
         </div>
     </div>
+    <%
+        if(request.getParameter("msg")!=null) {
+            int code = Integer.parseInt(request.getParameter("msg"));
+            System.out.println(code);
+            String message = "";
+            switch (code) {
+                case 0: {
+                    message = "Add successfully!";
+                    break;
+                }
+                case 1: {
+                    message = "The field not empty!";
+                    break;
+                }
+                case 2: {
+                    message = "The field invalid";
+                    break;
+                }
+                case 3: {
+                    message = "Add fail!";
+                    break;
+                }
+                default: message = "";
+            }
+    %>
+    <div class="title_right notification" >
+        <div class="form-group pull-right top_search width-custom">
+            <% if (code == 0) {
+            %>
+            <div class="alert alert-success">
+                <strong> <%= message%></strong>
+            </div>
+            <% } else {
+            %>
+            <div class="alert alert-danger">
+                <strong> <%= message%></strong>
+            </div>
+            <%
+                }
+            %>
+        </div>
+    </div>
+    <%
+        }
+    %>
 
     <div class="x_panel">
         <div class="x_content">
             <br />
-            <form class="form-horizontal form-label-left">
+            <form class="form-horizontal form-label-left"  action="<%= request.getContextPath() %>/CreatePositionServlet" method="POST">
                 <div class="form-group row ">
-                    <label class="control-label col-md-3 col-sm-3 ">Full name</label>
+                    <label class="control-label col-md-3 col-sm-3 ">Name</label>
                     <div class="col-md-9 col-sm-9 ">
-                        <input type="text" class="form-control" >
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label class="col-md-3 col-sm-3  control-label">Gender
-                    </label>
-
-                    <div class="radio custome-radio">
-                        <input type="radio" class="flat" checked name="iCheck"> Female
-                    </div>
-                    <div class="radio custome-radio">
-                        <input type="radio" class="flat" name="iCheck"> Male
+                        <input type="text" class="form-control" name="nameDep" >
                     </div>
                 </div>
 
-                <div class="form-group row">
-                    <label class="control-label col-md-3 col-sm-3 ">Position</label>
+                <div class="form-group row ">
+                    <label class="control-label col-md-3 col-sm-3 ">Description</label>
                     <div class="col-md-9 col-sm-9 ">
-                        <select class="form-control">
-                            <option>Giam doc</option>
-                            <option>Ke toan</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label class="control-label col-md-3 col-sm-3 ">Department</label>
-                    <div class="col-md-9 col-sm-9 ">
-                        <select class="form-control">
-                            <option>Nhan su</option>
-                            <option>Ke toan</option>
-                            <option>Bao ve</option>
-                        </select>
+                        <input type="text" class="form-control" name="desdep">
                     </div>
                 </div>
 
@@ -63,4 +84,5 @@
 </div>
 
 <!-- /page content -->
+
 <%@ include file="/templates/pages/loadJS.jsp" %>

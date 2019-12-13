@@ -18,3 +18,9 @@
     background-color: cornflowerblue;
     color: red
 }
+
+.custom-font {
+    font-size:25px !important;
+}
+
+a.ex1:hover, a.ex1:active {color: red;}

@@ -25,6 +25,6 @@ public class DashBoardBO {
     }
 
     List<Staff> getListStaffs() {
-        return staffBO.getListStaffs();
+        return staffBO.getListStaffs(0, "");
     }
 }

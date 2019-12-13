@@ -9,41 +9,51 @@
             <h3>Create new staff</h3>
         </div>
     </div>
-
-    <div class="title_right">
+    <%
+    if(request.getParameter("msg")!=null) {
+        int code = Integer.parseInt(request.getParameter("msg"));
+        System.out.println(code);
+        String message = "";
+        switch (code) {
+            case 0: {
+                message = "Add successfully!";
+                break;
+            }
+            case 1: {
+            message = "The field not empty!";
+                break;
+            }
+            case 2: {
+                message = "The field invalid";
+                break;
+            }
+            case 3: {
+                message = "Add fail!";
+                break;
+            }
+            default: message = "";
+        }
+        %>
+    <div class="title_right notification" >
         <div class="form-group pull-right top_search width-custom">
-            <div class="error width-custom">
-                <%
-                    if(request.getParameter("msg")!=null) {
-                        int code = Integer.parseInt(request.getParameter("msg"));
-                        System.out.println(code);
-                        String message = "";
-                        switch (code) {
-                            case 0: {
-                                message = "Add successfully!";
-                                break;
-                            }
-                            case 1: {
-                            message = "The field not empty!";
-                                break;
-                            }
-                            case 2: {
-                                message = "The field invalid";
-                                break;
-                            }
-                            case 3: {
-                                message = "Add fail!";
-                                break;
-                            }
-                        }
-                        %>
-                    <h5> <%= message%></h5>
-                <%
-                    }
-                %>
+            <% if (code == 0) {
+            %>
+            <div class="alert alert-success">
+                <strong> <%= message%></strong>
             </div>
+            <% } else {
+                %>
+            <div class="alert alert-danger">
+                <strong> <%= message%></strong>
+            </div>
+            <%
+            }
+            %>
         </div>
     </div>
+    <%
+        }
+    %>
 
     <div class="x_panel">
         <div class="x_content">
@@ -74,7 +84,7 @@
                             <% List<Position> pos = (List<Position>)request.getAttribute("pos");
                                 for (Position p : pos) {
                                     %>
-                                    <option value="<%= p.getName()%>"><%= p.getName()%></option>
+                                    <option value="<%= p.getID()%>"><%= p.getName()%></option>
                             <%
                                 }
                             %>
@@ -88,7 +98,7 @@
                             <% List<Department> dep = (List<Department>)request.getAttribute("dep");
                                 for (Department d : dep) {
                             %>
-                            <option value="<%= d.getName()%>"><%= d.getName()%></option>
+                            <option value="<%= d.getID()%>"><%= d.getName()%></option>
                             <%
                                 }
                             %>
